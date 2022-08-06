@@ -5,7 +5,7 @@ export default {
   fields: [
     {
       title: 'Size',
-      name: 'size',
+      name: 'name',
       type: 'string',
       validation: Rule => Rule.required(),
     },
